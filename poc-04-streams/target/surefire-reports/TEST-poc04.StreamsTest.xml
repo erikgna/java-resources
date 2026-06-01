@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="poc04.StreamsTest" time="0.065" tests="77" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/surefire/surefirebooter-20260601161122997_3.jar /Users/erik/Documents/pocs/java-resources/poc-04-streams/target/surefire 2026-06-01T16-11-22_957-jvmRun1 surefire-20260601161122997_1tmp surefire_0-20260601161122997_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/erik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams/target/surefire/surefirebooter-20260601161122997_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.30+7"/>
+    <property name="user.name" value="erik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.30+7"/>
+    <property name="localRepository" value="/Users/erik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/xw/pyjtmx1j1cq5ygcm3_jg3zmr0000gn/T/"/>
+    <property name="java.version" value="11.0.30"/>
+    <property name="user.dir" value="/Users/erik/Documents/pocs/java-resources/poc-04-streams"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/erik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.30+7"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="collect_toUnmodifiableList_throws_on_add" classname="poc04.StreamsTest" time="0.008"/>
+  <testcase name="predicate_negate_flips_result" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="intstream_range_count" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="stream_is_consumed_after_terminal_operation" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="empty_list_stream_count_is_zero" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_all_match_returns_full_list" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_sum_with_identity" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_product_with_identity" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="predicate_or_passes_when_either_true" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="collect_counting_per_group" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="collect_toSet_removes_duplicates" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="sorted_reverse_order" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="noneMatch_free_items" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="flatMap_count_total_elements" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="intstream_average_from_array" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="sorted_by_string_length" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="sorted_distinct_limit_pipeline" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="arrays_stream_string_array_count" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="intstream_rangeClosed_count" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_empty_stream_no_identity_returns_empty_optional" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="map_extract_first_name" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="collect_joining_with_delimiter" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="stream_count_returns_size_of_source_list" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="predicate_not_static_method" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="reduce_empty_stream_returns_identity" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_chained_even_and_greater_than_four" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="mapToInt_sum_of_string_lengths" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="predicate_and_requires_both_true" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="intstream_max_from_array" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="map_squares" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_then_map_pipeline" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="limit_larger_than_source_returns_all" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_without_identity_returns_optional" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="limit_takes_first_n_elements" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="group_by_category_has_three_categories" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="cheapest_product_is_notebook" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="flatMap_sentences_to_words" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="collect_toList" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="intstream_min_from_array" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="allMatch_books_under_100" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="distinct_removes_duplicates" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="stream_of_produces_expected_count" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="predicate_test_method_returns_true_for_matching_value" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="pagination_page0" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="pagination_page1" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_longest_string" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="map_on_empty_stream_returns_empty_list" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="skip_discards_first_n_elements" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="reduce_string_concatenation" classname="poc04.StreamsTest" time="0.004"/>
+  <testcase name="map_to_uppercase" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_even_numbers" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="predicate_used_in_filter" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="intstream_average_empty_array_is_empty" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="collect_joining_with_prefix_and_suffix" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="electronics_count" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_short_names_length_3_or_less(String)[1]" classname="poc04.StreamsTest" time="0.004"/>
+  <testcase name="filter_short_names_length_3_or_less(String)[2]" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_short_names_length_3_or_less(String)[3]" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="anyMatch_electronics_over_800" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="collect_groupingBy_groups_correctly" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_no_match_returns_empty_list" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="top3_cheapest_products" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_strings_starting_with_a" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="filter_then_forEach_does_not_modify_original_list" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="flatMap_empty_inner_lists_skipped" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="total_electronics_price" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="skip_larger_than_source_returns_empty" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="flatMap_flattens_list_of_lists" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="most_expensive_product_is_laptop" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="map_string_to_length" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="filter_greater_than_five" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="flatMap_then_distinct_and_sorted" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="books_joined_by_comma" classname="poc04.StreamsTest" time="0.001"/>
+  <testcase name="sorted_natural_order_integers" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="count_products_under_50" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="intstream_sum_from_array" classname="poc04.StreamsTest" time="0.0"/>
+  <testcase name="intstream_boxed_converts_to_list" classname="poc04.StreamsTest" time="0.001"/>
+</testsuite>
