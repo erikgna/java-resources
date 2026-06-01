@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="poc03.FunctionalInterfacesTest" time="0.069" tests="47" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/surefire/surefirebooter-20260601155253466_3.jar /Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/surefire 2026-06-01T15-52-53_424-jvmRun1 surefire-20260601155253466_1tmp surefire_0-20260601155253466_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/erik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces/target/surefire/surefirebooter-20260601155253466_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.30+7"/>
+    <property name="user.name" value="erik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.30+7"/>
+    <property name="localRepository" value="/Users/erik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/xw/pyjtmx1j1cq5ygcm3_jg3zmr0000gn/T/"/>
+    <property name="java.version" value="11.0.30"/>
+    <property name="user.dir" value="/Users/erik/Documents/pocs/java-resources/poc-03-functional-interfaces"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/erik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.30+7"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="impl09_throwingFunction_happyPath" classname="poc03.FunctionalInterfacesTest" time="0.011"/>
+  <testcase name="impl02_lengthParameterized(String, int)[1]" classname="poc03.FunctionalInterfacesTest" time="0.008"/>
+  <testcase name="impl02_lengthParameterized(String, int)[2]" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl02_lengthParameterized(String, int)[3]" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl02_lengthParameterized(String, int)[4]" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl04_andThen_chainsConsumers" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl07_compose_rightToLeft" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl01_lambdaAddition" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl10_pipeline_emptyInput" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl10_pipeline_filtersAndTransforms" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl02_andThen_composesLeftToRight" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl03_or_atLeastOneMustBeTrue" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl03_predicateNot_java11" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl08_arbitraryInstanceRef" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl06_unaryOperator_sameTypeInOut" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl02_compose_composesRightToLeft" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl02_functionApply" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl05_supplierIsLazy" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl06_biFunction_twoInputs" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl08_constructorRef_noArgs" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl04_biConsumer_twoInputs" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl07_andThen_leftToRight" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl04_consumerSideEffect" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl06_binaryOperator_minMax" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl05_supplierProducesValue" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl03_negate_flipsResult" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl06_binaryOperator_twoSameTypeInputs" classname="poc03.FunctionalInterfacesTest" time="0.005"/>
+  <testcase name="impl10_pipeline_allFiltered" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl01_passFunctionAsArgument" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl07_composedPipelineReusable" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl01_lambdaMultiplication" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl08_staticMethodRef_throwsOnBadInput" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl02_identity_returnsInput" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl01_lambdaSubtraction" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl09_throwingFunction_throwsOnBadInput" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl06_biFunction_andThen" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl08_constructorRef_withArg" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl09_wrappedFunction_wrapsCheckedAsRuntime" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl08_staticMethodRef" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl07_andThen_and_compose_equivalent" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl10_pipeline_composedTransform" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl05_supplierAsFactory" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl05_defaultValuePattern" classname="poc03.FunctionalInterfacesTest" time="0.001"/>
+  <testcase name="impl03_and_bothMustBeTrue" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl03_predicateTest" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl10_pipeline_consumerCalledForEachResult" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+  <testcase name="impl08_particularInstanceRef" classname="poc03.FunctionalInterfacesTest" time="0.0"/>
+</testsuite>
