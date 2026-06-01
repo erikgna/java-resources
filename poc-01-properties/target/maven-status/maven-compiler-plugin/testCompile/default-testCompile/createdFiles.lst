@@ -1,0 +1,7 @@
+poc01/PropertiesTest.class
+poc01/PropertiesTest$EdgeCaseTests.class
+poc01/PropertiesTest$CreateTests.class
+poc01/PropertiesTest$StoreTests.class
+poc01/PropertiesTest$ReadTests.class
+poc01/PropertiesTest$ThreadSafetyTests.class
+poc01/PropertiesTest$SystemTests.class
