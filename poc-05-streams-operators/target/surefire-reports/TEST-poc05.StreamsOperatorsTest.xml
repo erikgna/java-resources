@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="poc05.StreamsOperatorsTest" time="0.076" tests="67" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/surefire/surefirebooter-20260601163542050_3.jar /Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/surefire 2026-06-01T16-35-42_009-jvmRun1 surefire-20260601163542050_1tmp surefire_0-20260601163542050_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/test-classes:/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/classes:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/erik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/erik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/erik/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/erik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/erik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/Users/erik/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.30%252B7/OpenJDK11U-jdk_aarch64_mac_hotspot_11.0.30_7.tar.gz/jdk-11.0.30+7/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators/target/surefire/surefirebooter-20260601163542050_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.30+7"/>
+    <property name="user.name" value="erik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.30+7"/>
+    <property name="localRepository" value="/Users/erik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/xw/pyjtmx1j1cq5ygcm3_jg3zmr0000gn/T/"/>
+    <property name="java.version" value="11.0.30"/>
+    <property name="user.dir" value="/Users/erik/Documents/pocs/java-resources/poc-05-streams-operators"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/erik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.30+7"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="reduce_no_identity_returns_optional_with_max" classname="poc05.StreamsOperatorsTest" time="0.007"/>
+  <testcase name="consumer_andThen_all_receive_original_input" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_iterate_counting_from_zero" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_generate_method_reference_supplier" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_iterate_java9_bounded_form" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_feeds_stream_pipeline" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_product_with_identity" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="consumer_accept_called_multiple_times_accumulates" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_is_lazy_does_not_run_until_get" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="binary_operator_minBy_picks_shortest_string" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_andThen_triple_chain" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="binary_operator_reduce_aggregates_values_from_mapped_stream" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_iterate_fibonacci_first_ten" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_identity_same_reference" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="reduce_sum_with_identity_returns_correct_total" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="binary_operator_max_returns_larger" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_as_factory_produces_distinct_instances" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_stateful_counter_increments_correctly" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="unary_operator_apply_transforms_string" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_returns_different_values_each_call_when_stateful" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_iterate_limit_one_returns_seed_only" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_empty_stream_returns_identity" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="binary_operator_add_two_integers" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="unary_operator_identity_returns_input_unchanged" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="consumer_andThen_executes_in_order" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="binary_operator_string_longer" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_get_can_be_called_multiple_times" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="function_andThen_runs_first_then_second" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="consumer_andThen_both_consumers_receive_same_input" classname="poc05.StreamsOperatorsTest" time="0.002"/>
+  <testcase name="biconsumer_map_foreach_iterates_all_entries" classname="poc05.StreamsOperatorsTest" time="0.004"/>
+  <testcase name="list_replaceAll_squares_integers" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_single_element_returns_that_element" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="binary_operator_maxBy_picks_longest_string" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_limit_one_returns_single_element" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_with_constant_supplier_produces_n_copies" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="consumer_used_with_foreach_processes_all_elements" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_apply_transforms_integer" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_string_concatenation" classname="poc05.StreamsOperatorsTest" time="0.002"/>
+  <testcase name="list_replaceAll_applies_operator_in_place" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="biconsumer_andThen_both_run_with_same_inputs" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="consumer_andThen_chain_of_three_runs_in_order" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="supplier_of_integer_returns_correct_type" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_longest_string_via_maxBy_inside_reduce" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="binary_operator_equal_length_strings_picks_first_with_minBy" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="biconsumer_accept_receives_both_arguments" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_iterate_powers_of_two" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_andThen_composition" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="consumer_accept_executes_side_effect" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_iterate_string_growing" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="consumer_as_foreach_accumulates_side_effects" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="binary_operator_min_returns_smaller" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_produces_exactly_n_elements(int)[1]" classname="poc05.StreamsOperatorsTest" time="0.006"/>
+  <testcase name="stream_generate_produces_exactly_n_elements(int)[2]" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_generate_produces_exactly_n_elements(int)[3]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_produces_exactly_n_elements(int)[4]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="stream_generate_produces_exactly_n_elements(int)[5]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="function_compose_runs_second_first" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_no_identity_empty_stream_returns_empty_optional" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="unary_operator_uppercase_every_word(String)[1]" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="unary_operator_uppercase_every_word(String)[2]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_uppercase_every_word(String)[3]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_uppercase_every_word(String)[4]" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="supplier_get_returns_expected_string" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_compose_runs_before" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="reduce_in_full_pipeline_sum_squares_of_evens" classname="poc05.StreamsOperatorsTest" time="0.001"/>
+  <testcase name="stream_generate_limit_zero_returns_empty" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+  <testcase name="unary_operator_in_stream_map" classname="poc05.StreamsOperatorsTest" time="0.0"/>
+</testsuite>
